@@ -1,6 +1,6 @@
 const express = require("express");
 const logger = require("./middleware/logger.js");
-const studentRoutes = require("./routes/studentRoutes");
+const studentRoutes = require("./routes/studentRoutes.js");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
